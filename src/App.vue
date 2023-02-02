@@ -7,7 +7,7 @@
   />
 
   <div class="menu">
-    <a v-for="menu in menus" :key="menu">{{ menu }}</a>
+    <a v-for="menu in menus" :key="menu">{{ menu }} test</a>
   </div>
   <section>
     <div
